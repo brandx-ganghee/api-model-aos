@@ -35,15 +35,15 @@ afterEvaluate {
         publications{
             release(MavenPublication){
                 from components.release
-                groupId = 'com.brandxcorp.api'
-                artifactId = 'api'
+                groupId = 'com.github.brandxcorp'
+                artifactId = 'api-model-android'
                 version = '1.0'
             }
 
             debug(MavenPublication) {
                 from components.debug
-                groupId = 'com.brandxcorp.api'
-                artifactId = 'api'
+                groupId = 'com.github.brandxcorp'
+                artifactId = 'api-model-android'
                 version = '1.0'
             }
         }
