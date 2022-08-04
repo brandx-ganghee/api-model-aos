@@ -37,14 +37,14 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.brandxcorp'
                 artifactId = 'api-model-android'
-                version = '1.0'
+                version = '1.0.1'
             }
 
             debug(MavenPublication) {
                 from components.debug
                 groupId = 'com.github.brandxcorp'
                 artifactId = 'api-model-android'
-                version = '1.0'
+                version = '1.0.1'
             }
         }
     }
