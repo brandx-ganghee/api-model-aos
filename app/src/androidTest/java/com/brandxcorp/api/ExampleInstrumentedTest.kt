@@ -2,7 +2,6 @@ package com.brandxcorp.api
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.brandxcorp.api.response.AddClipResponse
 
 import org.junit.Test
 import org.junit.runner.RunWith
